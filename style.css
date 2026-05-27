@@ -18,7 +18,6 @@
     max-width: 1440px;
     margin: 0 auto;
     background-color: #FFFFFF;
-    border: 1px solid red;
 }
 .width{
     max-width: 1200px;
@@ -86,6 +85,7 @@ a{
     color: #FFFFFF;
     padding: 10px 24px;
     border-radius: 10px;
+    cursor: pointer;
 }
 /******** e-commerce website logo *******/
 .e-commerce{
@@ -110,7 +110,7 @@ a{
     font-size: 1.75rem;
     color: #18191fFF;
     margin-top: 16px;
-    margin-bottom: 6px;
+    margin-bottom: 6px; 
 }
 .price{
     font-size: 1.25rem;
@@ -131,9 +131,6 @@ a{
 
       background: white;
       border: 1px solid #dcdcdc;
-
-      /* padding: 6px 10px;
-      border-radius: 4px; */
     }
 
     .stars{
@@ -152,4 +149,65 @@ a{
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 100px;
-}    
+}  
+/******** Banner section style *********/
+.banner-container{
+    display: flex;
+    gap: 96px;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.card-content>h2{
+    font-size: 2.375rem;
+    margin-bottom: 16px;
+    color: #0A0826;
+}
+.card-content>p{
+    font-weight: 700;
+    color: #6c6c6cFF;
+    margin-bottom: 16px;
+    line-height: 1.75;
+}
+.card-btn>i{
+    margin-left: 5px;
+    align-items: center;
+}
+/****** Footer section style *******/
+.footer{
+    background-color: #0A0826;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container>h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.footer-container>h5{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #d9dbe1FF;
+    margin-bottom: 5px;
+}
+.footer-container>p{
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.link>i{
+    color: #FFFFFF;
+    margin-left: 20px;
+    background-color: #333;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;    
+    font-size: 16px;         
+}
