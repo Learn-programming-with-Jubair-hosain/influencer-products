@@ -211,3 +211,107 @@ a{
     align-items: center;    
     font-size: 16px;         
 }
+
+.hide{
+    display: none;
+}
+
+/********* Responsive Mobile Device ********/
+@media screen and (max-width:576px) {
+/* NAV MENU  */
+    .width{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-content{
+        justify-content: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-content>p{
+        font-size: 16px;
+    }
+    #home{
+        margin-right: 220px;
+        display: inline;
+    }
+    
+ /* Font Page */
+    .influencer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 10px;
+    }
+    .influencer-container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .influencer-content{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .text{
+        font-size: 1.45rem;
+    }
+    .title{
+        font-size: 2.75rem;
+    }
+    .influencer-camera{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .influencer-camera>img{
+        width: 50%;
+    }
+    .btn{
+        width: 300px;
+        height: 70px;
+        font-size: 2rem;
+    }
+/* e-commerce website logo */
+    .e-commerce{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        gap: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+/* Popular-Collection */
+    .Popular-Collection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 5px;
+    }
+    .content{
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+/* Banner Section */
+    .banner-container{
+        display: inline;
+    }
+    .card-content{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .card-btn{
+        width: 300px;
+        height: 70px;
+        font-size: 2rem;
+    }
+/* footer */
+    .footer{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
